@@ -18,11 +18,7 @@ public class Demo
 	public Demo()
 	{
 		// Display text:
-		Text();
-		
-		// Wait for input:
-		//System.in.read();
-		
+		Text();		
 		// Display random number:
 		RandomNumber();
 	}
@@ -46,5 +42,4 @@ public class Demo
 		// Display random number:
 		System.out.println(r.nextInt(10));
 	}
-	
 }
